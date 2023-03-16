@@ -7,15 +7,15 @@ router.get("/", (req, res) => {
 
 });
 
-
+//render login pages
+router.get('/login', (req, res) => {
+  res.render('login');
+});
 //render signup handlebars
 router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-//render listing
-router.get('/listing', (req, res) => {
-  res.render('listings');
-});
+
 
 module.exports = router;
