@@ -1,0 +1,27 @@
+root {
+  --green: ;
+  --brown: ;
+  --grey: #ACACAC;
+}
+
+.nav-bg{
+    background: #231010;
+}
+
+.nav-text{
+    color: #d9ead3;
+    
+}
+
+
+.banner{
+  color: #231010;
+  
+  
+
+}
+.banner-bg{
+  background:#d9ead3;
+  display: flex;
+  padding-top: 100px;
+}
